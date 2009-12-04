@@ -14,7 +14,9 @@ Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upst
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Moose)
 BuildRequires: perl(MooseX::Types)
+BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -45,5 +47,3 @@ rm -rf %buildroot
 %doc README Changes
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
