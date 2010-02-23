@@ -1,5 +1,5 @@
 %define upstream_name    MooseX-Types-Common
-%define upstream_version 0.001001
+%define upstream_version 0.001002
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
