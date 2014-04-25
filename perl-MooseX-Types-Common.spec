@@ -1,11 +1,12 @@
 %define upstream_name    MooseX-Types-Common
-%define upstream_version 0.001008
+%define upstream_version 0.001012
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
 Release:    1
 
 Summary:    No summary found
+
 
 License:    GPL+ or Artistic
 Group:      Development/Perl
@@ -44,6 +45,7 @@ default.
 %files
 %doc README Changes
 %{_mandir}/man3/*
-%perl_vendorlib/*
+%{perl_vendorlib}/*
+
 
 

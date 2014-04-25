@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-Types-Common-0.001008.tar.gz: 8a3c4cdf0d16961f9e4303802f7b0a52cfec4e6e
 sources:
-  "MooseX-Types-Common-0.001008.tar.gz": 8a3c4cdf0d16961f9e4303802f7b0a52cfec4e6e
+  MooseX-Types-Common-0.001012.tar.gz: c39ecdc15891916ef04f64e542d6a4c8289eb34b
